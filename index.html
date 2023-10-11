@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jamie Wells</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="templates.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div id="section-one">
+        <h1 class="heading">Jamie Wells' Portfolio</h1>
+        <p class="paragraph">
+          My Portfolio of various Web Projects I've built using HTMl, CSS, plain
+          Javascript and various Javascript libraries including Node, jQuery,
+          and Bootstrap. Take a look through my timeline and see how my work has
+          progressed!
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 1: My First Web Application -->
+
+    <section class="section">
+      <div class="column-left">
+        <h2 class="heading">Recorrido de España</h2>
+        <p class="paragraph date">August, 2023</p>
+        <p class="paragraph">
+          Eager and confident, I decided to come out of my shell and create
+          something brand new to me. I decided on a web application used for
+          taking restaurant orders, designed to take (pretend) payments and log
+          each transaction.
+        </p>
+        <p class="paragraph">
+          Overall, I was quite pleased with its functionality, considering it
+          was my first real project. However, in terms of design, there was much
+          to be desired.
+        </p>
+        <div
+          class="visit-site"
+          onclick='goToProj("https://jamiewells1.github.io/jamies-spanish-specials/")'
+        >
+          Visit Site<span class="material-symbols-outlined">open_in_new</span>
+        </div>
+      </div>
+      <!-- Right Column -->
+      <div class="column-right slider-container">
+        <div class="slider">
+          <img src="./recorrido-assets/recorrido-1.png" alt="recorrido-1" />
+          <img src="./recorrido-assets/recorrido-2.png" alt="recorrido-2" />
+          <img src="./recorrido-assets/recorrido-3.png" alt="recorrido-3" />
+          <img src="./recorrido-assets/recorrido-4.png" alt="recorrido-4" />
+          <img src="./recorrido-assets/recorrido-5.png" alt="recorrido-5" />
+        </div>
+        <button id="prevBtn1">
+          <span class="material-symbols-outlined"> navigate_before </span>
+        </button>
+        <button id="nextBtn1">
+          <span class="material-symbols-outlined"> navigate_next </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECTION 2: DISCHARGING A CAPACITOR -->
+
+    <section class="section" id="capacitance-section">
+      <div class="column-right slider-container">
+        <div class="slider" id="capacitance-slider">
+          <img src="./capacitance-assets/capacitance-1.png" />
+          <img src="./capacitance-assets/capacitance-2.png" />
+        </div>
+        <button id="prevBtn2">
+          <span class="material-symbols-outlined"> navigate_before </span>
+        </button>
+        <button id="nextBtn2">
+          <span class="material-symbols-outlined"> navigate_next </span>
+        </button>
+      </div>
+      <!-- Right Column -->
+      <div class="column-left">
+        <h2 class="heading">Discharging a Capacitor</h2>
+        <p class="paragraph date">September, 2023</p>
+        <p class="paragraph">
+          To save time on our in-class calculations, I created a web application
+          in around 6 hours, which models a concept found in Physics, known as
+          discharging a capacitor.
+        </p>
+        <p class="paragraph">
+          I presented my application the next day in lesson. You type all the
+          values obtained during the experiment into the calculator, and it will
+          generate two graphs using ChartJS to visualise the values taken from
+          the experiment.
+        </p>
+        <div
+          class="visit-site"
+          onclick='goToProj("https://jamiewells1.github.io/discharging-a-capacitor/")'
+        >
+          Visit Site<span class="material-symbols-outlined">open_in_new</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: MONEYMOVER -->
+
+    <section class="section">
+      <div class="column-left">
+        <h2 class="heading">MoneyMover</h2>
+        <p class="paragraph date">September, 2023</p>
+        <p class="paragraph">
+          A project I built mainly to practice my UI/UX skills, "MoneyMover" is
+          a web application that is used to model and visualise various types of
+          transactions, including receiving and sending payments.
+        </p>
+        <p class="paragraph">
+          This project is currently incomplete, but I plan to go back and
+          complete it at a later date.
+        </p>
+        <div
+          class="visit-site"
+          onclick='goToProj("https://jamiewells1.github.io/MoneyMover/")'
+        >
+          Visit Site<span class="material-symbols-outlined">open_in_new</span>
+        </div>
+      </div>
+      <!-- Right Column -->
+      <div class="column-right slider-container">
+        <div class="slider" id="moneymover-slider">
+          <img src="./moneymover-assets/moneymover-1.png" alt="recorrido-1" />
+          <img src="./moneymover-assets/moneymover-2.png" alt="recorrido-2" />
+          <img src="./moneymover-assets/moneymover-3.png" alt="recorrido-3" />
+        </div>
+        <button id="prevBtn3">
+          <span class="material-symbols-outlined"> navigate_before </span>
+        </button>
+        <button id="nextBtn3">
+          <span class="material-symbols-outlined"> navigate_next </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="capacitance-section">
+      <div class="column-right slider-container">
+        <div class="slider" id="capacitance-slider">
+          <img src="./newsletter-assets/newsletter-1.png" />
+          <img src="./newsletter-assets/newsletter-2.png" />
+          <img src="./newsletter-assets/newsletter-3.png" />
+          <img src="./newsletter-assets/newsletter-4.png" />
+        </div>
+        <button id="prevBtn4">
+          <span class="material-symbols-outlined"> navigate_before </span>
+        </button>
+        <button id="nextBtn4">
+          <span class="material-symbols-outlined"> navigate_next </span>
+        </button>
+      </div>
+      <!-- Right Column -->
+      <div class="column-left">
+        <h2 class="heading">FAW Newsletter</h2>
+        <p class="paragraph date">October, 2023</p>
+        <p class="paragraph">
+          The FAW Newsletter site was my first live-website that I coded from
+          scratch. It was for my school newsletter, of which I was Editor, which
+          I made as we were having difficulty with transferring written pieces
+          to one another.
+        </p>
+        <p class="paragraph">
+          The site also gives a basic overview of the newsletter, including what
+          each edition contains, why you should read and how you can grab a
+          copy.
+        </p>
+        <div
+          class="visit-site"
+          onclick='goToProj("https://www.fawnewsletter.com/")'
+        >
+          Visit Site<span class="material-symbols-outlined">open_in_new</span>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
